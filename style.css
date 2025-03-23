@@ -1,0 +1,73 @@
+body {
+    background-color: #fdf;
+    font-family: "Unbounded", sans-serif;
+}
+
+.tabs {
+    padding: 20px 10px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.pane {
+    width: 350px;
+    padding: 15px 15px 50px;
+    margin: 15px;
+    background: white;
+    border-left: 2px solid #3a3b3c;
+    border-right: 5px solid #3a3b3c ;
+    border-top: 2px solid #3a3b3c ;
+    border-bottom: 5px solid #3a3b3c;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.pane:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    transition: all 1s;
+}
+
+.pane>img {
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.button {
+    font-family: "Unbounded", sans-serif;
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding: 8px 20px;
+    background: #3a3b3c;
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    font-family: "Unbounded", sans-serif;
+    background: darkred;
+    color: darkcyan;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.194);
+    transition: all 1s;
+}
+
+.pane>p {
+    color: #666;
+    font-size: 15px;
+    margin: 10px 0px 0px 0px;
+}
+
+.hidden {
+    display: none;
+}
+p:hover{
+    color: cyan;
+    font-size: 18px; 
+    transition: all 1s;
+}
